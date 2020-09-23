@@ -9,6 +9,6 @@
 
 users = User.create({name: 'Nicolas Bouygues', email: 'bouygues.nicolas@gmail.com'})
 foodies_description = 'Un projet créé lors de ma formation au Wagon.'
-foodies = Project.create({title: 'Foodies', technologies: ['Ruby', 'Ruby on Rails', 'Javascript ES6', 'HTML', 'CSS'], description: foodies_description, creation_date: '13/03/2020'})
+foodies = Project.create!({title: 'Foodies', technologies: ['Ruby', 'Ruby on Rails', 'Javascript ES6', 'HTML', 'CSS'], description: foodies_description, creation_date: '13/03/2020'})
 video_agregateur_description = "Projet créé afin de monter en compétences sur React."
-video_agregateur = Project.create({title: 'Agrégateur de vidéos', technologies: ['React.JS', 'JSX', 'HTML', 'CSS']})
+video_agregateur = Project.create!({title: 'Agrégateur de vidéos', technologies: ['React.JS', 'JSX', 'HTML', 'CSS'], description: video_agregateur_description, creation_date: '20/09/2020'})
